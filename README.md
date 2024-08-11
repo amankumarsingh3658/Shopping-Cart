@@ -1,16 +1,31 @@
-# shoppingcart
+Shopping Cart App
+This project is a simple Shopping Cart application built using Flutter. It leverages SQLite for local data storage and uses the Provider package for state management.
 
-A new Flutter project.
+Features
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+Product Listing: View a list of available products, each with a name, image, price, and description.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Add to Cart: Add products to the cart from the product list.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+Cart Management: Increase or decrease the quantity of items in the cart, or remove items entirely.
+
+
+Persistent Storage: Cart data is stored locally using SQLite, ensuring that the cart is preserved even when the app is closed.
+
+
+State Management: The Provider package is used for efficient state management, ensuring a smooth and responsive user experience.
+
+
+Technologies Used
+
+
+Flutter: For building the UI and handling the app’s logic.
+
+
+SQLite: For local database management, storing the products and cart data.
+
+
+Provider: For state management, ensuring that the UI is reactive and up-to-date.
